@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-section {
+   width: 50%;
+   margin: 0 auto;
+   padding-top: 100px;
+   font-size: 20px;
+   border-bottom: 5px solid black;
+   padding-bottom: 20px;
+
+   .sbm-div {
+    align-items: center;
+    justify-content: center;
+   }
+
+   div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    input {
+        width: 40%;
+    }
+   }
+}
+
+.card-section {
+    width: 50%;
+    margin: 0 auto;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            padding-left: 5px;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="admin-section">
+        <div>
+            <label for="item-name">
+                Введите имя товара
+            </label>
+            <input type="text" name="" id="item-name">
+        </div>
+        
+        <div>
+            <label for="img-item">
+                Вставьте ссылку на изображение
+            </label> 
+            <input type="text" name="" id="img-item">
+        </div>
+        
+        <div>
+            <label for="producer">
+                Введите страну производитель
+            </label>
+            <input type="text" name="" id="producer"> 
+        </div>
+        
+        <div>
+            <label for="count">
+                Укажите количество единиц в наличии
+            </label> 
+            <input type="text" name="" id="count"> 
+        </div>
+        
+        <div>
+            <label for="price">
+                Укажите цену за 1 единицу
+            </label> 
+            <input type="text" name="" id="price">
+        </div>
+        <div class="sbm-div">
+            <button class="add-item">Добавить товар</button>
+        </div>
+    </div>
+    <div class="card-section">
+        <div>
+            <h1 id="name"></h1>
+        </div>
+        <div>
+            <img src="http://risovach.ru/upload/2013/09/mem/keep-calm_29306229_orig_.jpeg" alt="Item Photo" id="img">
+        </div>
+        <div>
+            <p>ПРОИЗВОДИТЕЛЬ: </p>
+            <p id="prod"></p>
+        </div>
+        <div>
+            <p>В НАЛИЧИИ: </p>
+            <p id="count-now"></p>
+        </div>
+        <div>
+            <p>ЦЕНА: </p>
+            <p id="price-now"></p>
+        </div>
+        
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
